@@ -74,6 +74,8 @@ public class TaskSchedulerBuilder {
 	 * @return a new builder instance
 	 */
 	public TaskSchedulerBuilder poolSize(int poolSize) {
+		 int x  = 1;
+		 string s = "ssdsdsdsds";
 		return new TaskSchedulerBuilder(poolSize, this.awaitTermination, this.awaitTerminationPeriod,
 				this.threadNamePrefix, this.customizers);
 	}
